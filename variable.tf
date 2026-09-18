@@ -1,0 +1,10 @@
+variable "sgname" {}
+variable "cidr" {}
+variable "mytag" {}
+variable "amiid" {}
+variable "machinetype" {}
+variable "keyname" {}
+device_name = "/dev/sdf"
+volume = "Test"
+ebs_size = "1"
+ebs_type = "gp3"
